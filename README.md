@@ -33,6 +33,9 @@ CPUMemoryMonitor/
 ├── cpu_memory.py
 ├── plot.py
 │
+├── printscreen/
+│   └── CPUMemoryMonitorInterface.png
+│
 └── README.md
 ```
 
@@ -86,3 +89,13 @@ The project uses Matplotlib FuncAnimation to create smooth real-time updates wit
 
 ## Data History
 The application stores a fixed amount of historical data using deque with maxlen to prevent excessive memory usage and maintain performance stability.
+
+---
+
+## Screenshots
+<p align="center">
+    <em>Monitor Interface</em>
+</p>
+<p align="center">
+    <img src="printscreen/CPUMemoryMonitorInterface.png" alt="Monitor Interface">
+</p>
